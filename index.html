@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+  
+<script src="https://www.gstatic.com/firebasejs/7.17.1/firebase.js"></script>
+ <link href="https://fonts.googleapis.com/css2?family=Recursive&display=swap" rel="stylesheet">
+ <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300&display=swap" rel="stylesheet">
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyDN7fJqN_ohdnQ0aGoLnB9FDjLBs_EY6fA",
+    authDomain: "database1-8d148.firebaseapp.com",
+    databaseURL: "https://database1-8d148.firebaseio.com",
+    projectId: "database1-8d148",
+    storageBucket: "database1-8d148.appspot.com",
+    messagingSenderId: "108293693177",
+    appId: "1:108293693177:web:efd0aca594fbb7691e8c28"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src = "main.js" defer></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+<body >
+    <center><h1>Song Finder</h1></body></center>
+    <button id="submitButton">Find Song:</button>
+    <input id="text" type="text">
+    <br><br>
+    <div id = "database"></div>
+    
+</body>
+</html>

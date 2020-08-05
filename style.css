@@ -1,0 +1,41 @@
+body {
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, rgb(255,88,88), rgb(255,226,105), #23a6d5, #23d5ab, rgb(89,255,83),rgb(246,87,241));
+      background-size:400% 400%;
+      position: relative;
+      animation: change 10s ease-in-out infinite ; 
+      font-family: 'Merriweather Sans', sans-serif;
+   
+  }
+  
+  #database{
+  
+    border: 5px solid black;
+    padding:2%;
+    margin-right: 10px;
+    margin-left: 10px;
+    
+  }
+  button{
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  
+  
+  @keyframes change {
+      0%{
+          background-position: 0 50%;
+      }
+      50%{
+          background-position: 100% 50%
+      }
+      100%{
+          background-position: 0 50%;
+      }
+  }
+  
+  /* TODO: Format the display of a single song (name, artist) */
+  /* TODO: Make it responsive if time permitting */
+  
+  h1 {
+    font-family: 'Recursive', 'sans-serif';
+  }
